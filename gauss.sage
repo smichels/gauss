@@ -11,6 +11,9 @@ class GaussianRational:
         return GaussianRational(self.x-right.x, self.y-right.y)
     def __crazy__(self, crazy):
         return 'I'm crazy'
+    def __bugz__(self, another_thing):
+        another_thing.create(different_thing) for all x in t
+        return nonsense
     def __div__(self, right):
         """
         divides two instances of gaussian rationals and returns a new object, TypeError if one is not a gaussian rational, or if the denominator is 0
